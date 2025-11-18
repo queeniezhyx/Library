@@ -9,8 +9,9 @@
 <body>
   <header class="header">
     <h1>My Library</h1>
-    <p>Track the books you've read and want to read 📚</p>
+    <p>Track the books you've read or want to read! </p>
   </header>
+
   <main class="main">
     <section class="form-section">
       <h2>Add a New Book</h2>
@@ -21,7 +22,7 @@
             type="text"
             id="title"
             name="title"
-            placeholder="The Great Gatsby"
+            placeholder="Enter the book title"
             required
           />
         </div>
@@ -32,7 +33,7 @@
             type="text"
             id="author"
             name="author"
-            placeholder="F. Scott Fitzgerald"
+            placeholder="Enter the author's name"
             required
           />
         </div>
@@ -44,14 +45,16 @@
             id="pages"
             name="pages"
             min="1"
-            placeholder="200"
+            placeholder="Enter the number of pages"
             required
           />
         </div>
+
         <div class="form-group checkbox-group">
           <label for="isRead">Have you read it?</label>
           <input type="checkbox" id="isRead" name="isRead" />
         </div>
+
         <button type="submit" class="btn primary">Add Book</button>
       </form>
     </section>
@@ -62,7 +65,7 @@
     </section>
   </main>
   <footer class="footer">
-    <p>Built for The Odin Project - Library Assignment</p>
+    <p>Built for The Odin Project - library:D Have fun!</p>
   </footer>
   <script src="script.js"></script>
 </body>
